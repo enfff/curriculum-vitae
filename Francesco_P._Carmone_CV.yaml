@@ -1,0 +1,254 @@
+cv:
+  name: Francesco P. Carmone
+  location: Torino
+  email: [REDACTED_EMAIL]
+  phone: [REDACTED_PHONE]
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: carmone
+    - network: GitHub
+      username: enfff
+  sections:
+    education:
+      - institution: Stanford University
+        area: Computer Science
+        degree: PhD
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Stanford, CA, USA
+        summary:
+        highlights:
+          - Working on the optimization of autonomous vehicles in urban environments
+      - institution: Boğaziçi University
+        area: Computer Engineering
+        degree: BS
+        date:
+        start_date: 2018-09
+        end_date: 2022-06
+        location: Istanbul, Türkiye
+        summary:
+        highlights:
+          - 'GPA: 3.9/4.0, ranked 1st out of 100 students'
+          - 'Awards: Best Senior Project, High Honor'
+    experience:
+      - company: Reply Concept Engineering
+        position: Internship
+        date:
+        start_date: 2024-09
+        end_date: 2025-02
+        location: Torino
+        summary: Sviluppo di un robot da pattugliamento
+        highlights:
+          - Generazione dataset con IA generativa [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) e [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+          - Fine-tuning di una rete convolutiva, [YOLOv11](https://docs.ultralytics.com/models/yolo11/), per object detection
+          - Pipeline [DeepStream](https://developer.nvidia.com/deepstream-sdk) su Jetson per inferenza su un flusso video, e comunicazione tramite [Kafka](https://kafka.apache.org/)
+          - Sviluppo server, e applicazione web per monitoraggio
+      - company: Icarus
+        position: Ingegnere Controllista
+        date:
+        start_date: 2023-10
+        end_date: 2025-05
+        location: Torino
+        summary:
+        highlights:
+        - Sviluppo del razzo [EXCALIBUR](https://icarus.polito.it/dart-2/) per la competizione [EuRoC 2024](https://euroc.pt/)
+        - Implementazione di un Filtro di Kalman (EKF) a 6 GdL
+        - Formazione nuovi membri, gestione team per R&S di nuovi algoritmi per il controllo della dinamica del volo
+      - company: Reply Concept Engineering
+        position: Ingegnere Robotico
+        date:
+        start_date: 2025-05
+        end_date: present
+        location: Torino
+        summary:
+        highlights:
+        - OpenRMF Contributor, Developing a centralized obstacle avoidance system for a project using OpenRMF and `rmf`_`obstacles`, within a Scrum team
+        - Set up RAG pipelines using Ollama and OpenWebUI to simplify RMF documentation; deployed internal tools and managed the shared dev environment
+    University Projects:
+      - name: '[Nonlinear Control and Aereospace Applications](https://github.com/enfff/NLCAA)'
+        summary: "Implementazioni in MATLAB/Simulink di svariati controlli nonlineari: Feedback Linarization (FL), Sliding Mode Control (SMC), Nonlinear Model Predictive Control (NMPC)"
+      - name: '[Robot Learning](https://github.com/enfff/robot-learning-labs)'
+        summary: "Raccolta di problemi di robotica risolti con Reinforcement Learning: tabular Q-Learning, Policy Gradient Algorithms (REINFORCE, SAC, PPO)"
+      - name: '[Guided Domain Randomization through Adversarial Agent](https://github.com/enfff/rl-hopper)'
+        summary: "Reinforcement Learning. Guided Domain Randomization applicato sull'Hopper  implementando un Adversarial Agent per confondere il Task Agent e migliorarne la robustezza"
+      - name: '[Modeling and Control of Cyber-Physical Systems]()'
+        summary: "Implementazione di un controllore distribuito secondo due approcci: 1. distributed neighborhood observer; 2. local observer. [Risultati (1)](https://github.com/enfff/cps-project/blob/main/project1/CPS_Project_I_Report.pdf). Studio dell'operatore iterative threshold-shrinkage per risolvere attacchi sparsi misure dei sensori e localizzazione del target. [Risultati (2)](https://github.com/enfff/cps-project/blob/main/project2/CPS_Project_II_Report.pdf)"
+      - name: '[Data Augmentation for Ship Detection](https://github.com/enfff/airbus-ship-detection)'
+        summary: "Studio di tecniche di data augmentation meno note per migliorare l'accuratezza delle detection"
+
+    skills:
+      - label: Programming
+        details: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
+      - label: Mathematics
+        details: Good understanding of differential equations, calculus, and linear algebra
+      - label: Languages
+        details: 'English (fluent, TOEFL: 118/120), Turkish (native)'
+    publications:
+      - title: 3D Finite Element Analysis of No-Insulation Coils
+        authors:
+          - Frodo Baggins
+          - '***John Doe***'
+          - Samwise Gamgee
+        doi: 10.1109/TASC.2023.3340648
+        url:
+        journal:
+        date: 2004-01
+    extracurricular_activities:
+      - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
+      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
+    numbered_entries:
+      - number: This is a numbered entry.
+      - number: This is another numbered entry.
+      - number: This is the third numbered entry.
+    reversed_numbered_entries:
+      - reversed_number: This is a reversed numbered entry.
+      - reversed_number: This is another reversed numbered entry.
+      - reversed_number: This is the third reversed numbered entry.
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Source Sans 3
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: Source Sans 3
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Source Sans 3
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: Source Sans 3
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '**DEGREE**'
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-07-08'
+  render_command:
+  bold_keywords: []
