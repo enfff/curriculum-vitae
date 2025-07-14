@@ -36,13 +36,13 @@ cv:
         start_date: 2025-05
         end_date: present
         location: Torino
-        summary:
+        summary: 
         highlights:
-        - Developing a centralized obstacle avoidance system for a project using OpenRMF and `rmf`_`obstacles`, within a Scrum team
-        - Open-RMF Contributor
-        - Set up RAG pipelines using Ollama and OpenWebUI to simplify RMF documentation; deployed internal tools and managed the shared dev environment
+          - Sviluppo di un sistema centralizzato di obstacle avoidance per un progetto utilizzando OpenRMF e `rmf`_`obstacles`, all'interno di un team Scrum
+          - Configurazione di pipeline RAG con Ollama e OpenWebUI per semplificare la documentazione RMF; deployment di strumenti interni e gestione dell'ambiente di sviluppo condiviso
+          - Contributor di Open-RMF
       - company: Reply Concept Engineering
-        position: Internship in Robotics and Computer Vision
+        position: Tirocinio in Robotica e Computer Vision
         date:
         start_date: 2024-09
         end_date: 2025-02
@@ -108,7 +108,7 @@ design:
   theme: classic
   page:
     size: a4
-    top_margin: 1cm
+    top_margin: 1.8cm
     bottom_margin: 1cm
     left_margin: 1cm
     right_margin: 1cm
@@ -214,40 +214,40 @@ locale:
   phone_number_format: international # 'national', 'international'
   page_numbering_template: Autorizzo il trattamento dei dati personali contenuti nel mio CV, ai sensi del GDPR (UE) 2016/679, Articolo 6.1(a).
   # page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
+  last_updated_date_template: Aggiornato TODAY
   date_template: MONTH_ABBREVIATION YEAR
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
+  month: mese
+  months: mesi
+  year: anno
+  years: anni
+  present: ora
   to: –
   abbreviations_for_months:
-    - Jan
+    - Gen
     - Feb
     - Mar
     - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
+    - Mag
+    - Giu
+    - Lug
+    - Ago
+    - Set
+    - Ott
     - Nov
-    - Dec
+    - Dic
   full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
+    - Gennaio
+    - Febbraio
+    - Marzo
+    - Aprile
+    - Maggio
+    - Giugno
+    - Luglio
+    - Agosto
+    - Settembre
+    - Ottobre
+    - Novembre
+    - Dicembre
 rendercv_settings:
   date: '2025-07-08'
   render_command:
