@@ -2,3 +2,6 @@ rendercv_output
 markdown
 classic
 .venv
+.old
+*prova*
+*test*
