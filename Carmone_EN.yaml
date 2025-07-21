@@ -220,7 +220,7 @@ locale:
   months: months
   year: year
   years: years
-  present: present
+  present: now
   to: –
   abbreviations_for_months:
     - Jan
