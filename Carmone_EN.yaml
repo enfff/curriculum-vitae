@@ -212,7 +212,7 @@ design:
 locale:
   language: it
   phone_number_format: international # 'national', 'international'
-  page_numbering_template: Autorizzo il trattamento dei dati personali contenuti nel mio CV, ai sensi del GDPR (UE) 2016/679, Articolo 6.1(a).
+  page_numbering_template: I authorise the processing of the personal data contained in my CV, pursuant to GDPR (EU) 2016/679, Article 6.1(a).
   # page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   last_updated_date_template: Last updated in TODAY
   date_template: MONTH_ABBREVIATION YEAR
