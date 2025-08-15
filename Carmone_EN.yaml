@@ -38,9 +38,8 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-        - Developing a centralized obstacle avoidance system for a project using OpenRMF and `rmf`_`obstacles`, within a Scrum team
-        - Open-RMF Contributor
-        - Set up RAG pipelines using Ollama and OpenWebUI to simplify RMF documentation; deployed internal tools and managed the shared dev environment
+        - Contributor to [Open-RMF](https://www.open-rmf.org/), actively working on [rmf_obstacles](https://github.com/open-rmf/rmf_obstacle) and related components
+        - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI)
       - company: Reply Concept Engineering
         position: Internship in Robotics and Computer Vision
         date:
@@ -65,16 +64,16 @@ cv:
           - Implementation of a 6-DOF Extended Kalman Filter (EKF)
           - Training new members, managing the team for R&D of new flight dynamics control algorithms
     University Projects:
-      - name: '[Nonlinear Control and Aerospace Applications](https://github.com/enfff/NLCAA)'
-        summary: "MATLAB/Simulink implementations of various nonlinear controls: Feedback Linearization (FL), Sliding Mode Control (SMC), Nonlinear Model Predictive Control (NMPC)"
-      - name: '[Robot Learning](https://github.com/enfff/robot-learning-labs)'
-        summary: "Collection of robotics problems solved with Reinforcement Learning: tabular Q-Learning, Policy Gradient Algorithms (REINFORCE, SAC, PPO)"
       - name: '[Guided Domain Randomization through Adversarial Agent](https://github.com/enfff/rl-hopper)'
         summary: "Reinforcement Learning. Guided Domain Randomization applied to the Hopper by implementing an Adversarial Agent to confuse the Task Agent and improve its robustness"
+      - name: '[Robot Learning](https://github.com/enfff/robot-learning-labs)'
+        summary: "Collection of robotics problems solved with Reinforcement Learning: tabular Q-Learning, Policy Gradient Algorithms (REINFORCE, SAC, PPO)"
       # - name: '[Modeling and Control of Cyber-Physical Systems]()'
       #   summary: "Implementation of a distributed controller according to two approaches: 1. distributed neighborhood observer; 2. local observer. [Results (1)](https://github.com/enfff/cps-project/blob/main/project1/CPS_Project_I_Report.pdf). Study of the iterative threshold-shrinkage operator to solve sparse sensor measurement attacks and target localization. [Results (2)](https://github.com/enfff/cps-project/blob/main/project2/CPS_Project_II_Report.pdf)"
       - name: '[Data Augmentation for Ship Detection](https://github.com/enfff/airbus-ship-detection)'
         summary: "Study of lesser-known data augmentation techniques to improve detection accuracy"
+      - name: '[Nonlinear Control and Aerospace Applications](https://github.com/enfff/NLCAA)'
+        summary: "MATLAB/Simulink implementations of various nonlinear controls: Feedback Linearization (FL), Sliding Mode Control (SMC), Nonlinear Model Predictive Control (NMPC)"
 
     skills:
       - label: Languages
@@ -82,7 +81,9 @@ cv:
       - label: Programming
         details: Python, Bash, C, Rust, JavaScript, M (MATLAB)
       - label: Miscellaneous
-        details: Linux (Arch, Ubuntu), git, Docker, GTK4, Torch, NVIDIA DeepStream (GStreamer), MATLAB,
+        details: Linux (Arch, Ubuntu), git, Docker, GTK4, Torch, NVIDIA DeepStream (GStreamer), MATLAB, Kubernetes (k3s)
+      - label: Domain Knowledge (Robotics)
+        details: ROS 2, OpenRMF, Multi-Robot Coordination, Computer Vision Pipelines
     # publications:
     #   - title: 3D Finite Element Analysis of No-Insulation Coils
     #     authors:
@@ -115,7 +116,8 @@ design:
     show_page_numbering: true
     show_last_updated_date: true
   colors:
-    text: rgb(32, 32, 32)
+    # text: rgb(32, 32, 32)
+    text: rgb(32, 31, 37)
     name: rgb(0, 79, 144)
     connections: rgb(0, 79, 144)
     section_titles: rgb(0, 79, 144)

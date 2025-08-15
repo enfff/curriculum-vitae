@@ -115,7 +115,8 @@ design:
     show_page_numbering: true
     show_last_updated_date: true
   colors:
-    text: rgb(32, 32, 32)
+    # text: rgb(32, 32, 32)
+    text: rgb(32, 31, 37)
     name: rgb(0, 79, 144)
     connections: rgb(0, 79, 144)
     section_titles: rgb(0, 79, 144)
