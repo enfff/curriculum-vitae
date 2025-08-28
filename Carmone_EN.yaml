@@ -1,8 +1,8 @@
 cv:
   name: Francesco P. Carmone
   location: Torino, IT
-  email: [REDACTED_EMAIL]
-  phone: tel:[REDACTED_PHONE]
+  # email: [REDACTED_EMAIL]
+  # phone: tel:[REDACTED_PHONE]
   website:
   social_networks:
     - network: LinkedIn
@@ -10,25 +10,8 @@ cv:
     - network: GitHub
       username: enfff
   photo: "profile_picture.jpg"
+  
   sections:
-    education:
-    - institution: Politecnico di Torino
-      area: Automation and Intelligent Cyber-Physical Systems
-      degree: "MS"
-      location: Torino, IT
-      start_date: 2022-10
-      end_date: 2024-06
-      highlights:
-        - "Student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)"
-        # - "Materie incentrate su Robotica; Controlli Nonlineari e Controlli Distribuiti; Programmazione di Sistema; IA: Reinforcement Learning, Machine Learning"
-    - institution: Università degli Studi di Palermo
-      area: Computer Engineering
-      degree: "BS"
-      location: Palermo, IT
-      start_date: 2018-09
-      end_date: 2021-07
-      highlights: 
-          - "Student association: [Vivere Ingegneria](https://www.linkedin.com/company/vivere-ingegneria/)"
     experience:
       - company: Reply Concept Engineering
         position: Robotics Engineer
@@ -38,7 +21,8 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-        - Contributor to [Open-RMF](https://www.open-rmf.org/), actively working on [rmf_obstacles](https://github.com/open-rmf/rmf_obstacle) and related components
+        - Designed and integrated a RAG pipeline (Ollama + LangChain) for a robotic assistant aiding visually impaired users, with dynamic re-indexing of OCR-extracted package data and voice interaction via gTTS
+        - Contributor to [Open-RMF](https://www.open-rmf.org/), actively working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components
         - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI)
       - company: Reply Concept Engineering
         position: Internship in Robotics and Computer Vision
@@ -60,9 +44,26 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-          - Development of the [EXCALIBUR](https://icarus.polito.it/dart-2/) rocket for the [EuRoC 2024](https://euroc.pt/) competition
-          - Implementation of a 6-DOF Extended Kalman Filter (EKF)
+          - Development of the [EXCALIBUR](https://icarus.polito.it/dart-2/) rocket for the [EuRoC 2024](https://euroc.pt/) competition, through the implementation of a 6-DoF Extended Kalman Filter (EKF)
           - Training new members, managing the team for R&D of new flight dynamics control algorithms
+    education:
+    - institution: Politecnico di Torino
+      area: Automation and Intelligent Cyber-Physical Systems
+      degree: "MS"
+      location: Torino, IT
+      start_date: 2022-10
+      end_date: 2024-06
+      highlights:
+        - "Student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)"
+        # - "Materie incentrate su Robotica; Controlli Nonlineari e Controlli Distribuiti; Programmazione di Sistema; IA: Reinforcement Learning, Machine Learning"
+    - institution: Università degli Studi di Palermo
+      area: Computer Engineering
+      degree: "BS"
+      location: Palermo, IT
+      start_date: 2018-09
+      end_date: 2021-07
+      highlights: 
+          - "Student association: [Vivere Ingegneria](https://www.linkedin.com/company/vivere-ingegneria/)"    
     University Projects:
       - name: '[Guided Domain Randomization through Adversarial Agent](https://github.com/enfff/rl-hopper)'
         summary: "Reinforcement Learning. Guided Domain Randomization applied to the Hopper by implementing an Adversarial Agent to confuse the Task Agent and improve its robustness"
@@ -81,9 +82,9 @@ cv:
       - label: Programming
         details: Python, Bash, C, Rust, JavaScript, M (MATLAB)
       - label: Miscellaneous
-        details: Linux (Arch, Ubuntu), git, Docker, GTK4, Torch, NVIDIA DeepStream (GStreamer), MATLAB, Kubernetes (k3s)
-      - label: Domain Knowledge (Robotics)
-        details: ROS 2, OpenRMF, Multi-Robot Coordination, Computer Vision Pipelines
+        details: Linux (Arch, Ubuntu), git, Docker, NVIDIA DeepStream (GStreamer), MATLAB, Kubernetes (k3s)
+      - label: Robotics
+        details: ROS 2, OpenRMF
     # publications:
     #   - title: 3D Finite Element Analysis of No-Insulation Coils
     #     authors:
@@ -251,6 +252,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-07-08'
+  date: '2025-08-28'
   render_command:
   bold_keywords: []
