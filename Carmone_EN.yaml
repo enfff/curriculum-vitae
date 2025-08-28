@@ -3,14 +3,13 @@ cv:
   location: Torino, IT
   # email: [REDACTED_EMAIL]
   # phone: tel:[REDACTED_PHONE]
-  website:
+  # website: https://www.hi.com
   social_networks:
     - network: LinkedIn
       username: carmone
     - network: GitHub
       username: enfff
   photo: "profile_picture.jpg"
-  
   sections:
     experience:
       - company: Reply Concept Engineering
