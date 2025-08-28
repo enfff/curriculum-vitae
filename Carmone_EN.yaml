@@ -116,12 +116,12 @@ design:
     show_page_numbering: true
     show_last_updated_date: true
   colors:
-    # text: rgb(32, 32, 32)
-    text: rgb(32, 31, 37)
-    name: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
+    text: rgb(32, 32, 32)
+    # text: rgb(48, 48, 48)
+    name: &accent rgb(0, 79, 144) # Monika's Blue
+    connections: *accent
+    section_titles: *accent
+    links: rgb(64, 64, 64)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
     font_family: Source Sans 3
