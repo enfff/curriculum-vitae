@@ -21,7 +21,7 @@ cv:
         summary:
         highlights:
         - Designed and integrated a RAG pipeline (Ollama + LangChain) for a robotic assistant aiding visually impaired users, with dynamic re-indexing of OCR-extracted package data and voice interaction via gTTS
-        - Contributor to [Open-RMF](https://www.open-rmf.org/), actively working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components
+        - "[Open-RMF](https://www.open-rmf.org/) contributor, working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components, see [PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff)"
         - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI)
       - company: Reply Concept Engineering
         position: Internship in Robotics and Computer Vision
@@ -251,6 +251,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-08-28'
+  date: '2025-10-08'
   render_command:
   bold_keywords: []

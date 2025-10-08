@@ -40,7 +40,7 @@ cv:
         highlights:
           - Sviluppo di un sistema centralizzato di obstacle avoidance per un progetto utilizzando OpenRMF e `rmf`_`obstacles`, all'interno di un team Scrum
           - Configurazione di pipeline RAG con Ollama e OpenWebUI per semplificare la documentazione RMF; deployment di strumenti interni e gestione dell'ambiente di sviluppo condiviso
-          - Contributor di Open-RMF
+          - Contributor di Open-RMF, [pull request \#37](https://github.com/open-rmf/rmf_obstacle/pull/37https://github.com/open-rmf/rmf_obstacle/pull/37)
       - company: Reply Concept Engineering
         position: Tirocinio in Robotica e Computer Vision
         date:
