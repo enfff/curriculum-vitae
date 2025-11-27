@@ -20,6 +20,8 @@ cv:
         location: Torino, IT
         summary:
         highlights:
+        - Implemented Autonomous Navigation for the TRON 1, using ROS 2 and Nav2
+        - Designed Autonomous Recovery Systems for RMF Robot Fleet Adapters
         - Designed and integrated a RAG pipeline (Ollama + LangChain) for a robotic assistant aiding visually impaired users, with dynamic re-indexing of OCR-extracted package data and voice interaction via gTTS
         - "[Open-RMF](https://www.open-rmf.org/) contributor, working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components, see [PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff)"
         - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI)
