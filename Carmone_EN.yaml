@@ -22,7 +22,7 @@ cv:
         highlights:
         - Implemented Autonomous Navigation for the TRON 1, using ROS 2 and Nav2
         - Designed Autonomous Recovery Systems for RMF Robot Fleet Adapters
-        - Designed and integrated a RAG pipeline (Ollama + LangChain) for a robotic assistant aiding visually impaired users, with dynamic re-indexing of OCR-extracted package data and voice interaction via gTTS
+        # - Designed and integrated a RAG pipeline (Ollama + LangChain) for a robotic assistant aiding visually impaired users, with dynamic re-indexing of OCR-extracted package data and voice interaction via gTTS
         - "[Open-RMF](https://www.open-rmf.org/) contributor, working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components, see [PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff)"
         - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI)
       - company: Reply Concept Engineering
@@ -35,7 +35,7 @@ cv:
         highlights:
               - Generated dataset using generative AI [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
               - Fine-tuned a convolutional network, [YOLOv11](https://docs.ultralytics.com/models/yolo11/), for object detection
-              - Built a [DeepStream](https://developer.nvidia.com/deepstream-sdk) pipeline on Jetson for video stream inference, with communication via [Kafka](https://kafka.apache.org/)
+              - Built a [DeepStream](https://developer.nvidia.com/deepstream-sdk) inference pipeline on Jetson with [Kafka](https://kafka.apache.org/) messaging
               - Developed server and web application for monitoring
       - company: Icarus
         position: Control Engineer
@@ -57,6 +57,7 @@ cv:
       highlights:
         - "Student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)"
         # - "Materie incentrate su Robotica; Controlli Nonlineari e Controlli Distribuiti; Programmazione di Sistema; IA: Reinforcement Learning, Machine Learning"
+        - "[University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736)"
     - institution: Università degli Studi di Palermo
       area: Computer Engineering
       degree: "BS"
@@ -65,27 +66,26 @@ cv:
       end_date: 2021-07
       highlights: 
           - "Student association: [Vivere Ingegneria](https://www.linkedin.com/company/vivere-ingegneria/)"    
-    University Projects:
-      - name: '[Guided Domain Randomization through Adversarial Agent](https://github.com/enfff/rl-hopper)'
-        summary: "Reinforcement Learning. Guided Domain Randomization applied to the Hopper by implementing an Adversarial Agent to confuse the Task Agent and improve its robustness"
-      - name: '[Robot Learning](https://github.com/enfff/robot-learning-labs)'
-        summary: "Collection of robotics problems solved with Reinforcement Learning: tabular Q-Learning, Policy Gradient Algorithms (REINFORCE, SAC, PPO)"
-      # - name: '[Modeling and Control of Cyber-Physical Systems]()'
-      #   summary: "Implementation of a distributed controller according to two approaches: 1. distributed neighborhood observer; 2. local observer. [Results (1)](https://github.com/enfff/cps-project/blob/main/project1/CPS_Project_I_Report.pdf). Study of the iterative threshold-shrinkage operator to solve sparse sensor measurement attacks and target localization. [Results (2)](https://github.com/enfff/cps-project/blob/main/project2/CPS_Project_II_Report.pdf)"
-      - name: '[Data Augmentation for Ship Detection](https://github.com/enfff/airbus-ship-detection)'
-        summary: "Study of lesser-known data augmentation techniques to improve detection accuracy"
-      - name: '[Nonlinear Control and Aerospace Applications](https://github.com/enfff/NLCAA)'
-        summary: "MATLAB/Simulink implementations of various nonlinear controls: Feedback Linearization (FL), Sliding Mode Control (SMC), Nonlinear Model Predictive Control (NMPC)"
-
+    # University Projects:
+    #   - name: '[Guided Domain Randomization through Adversarial Agent](https://github.com/enfff/rl-hopper)'
+    #     summary: "Reinforcement Learning. Guided Domain Randomization applied to the Hopper by implementing an Adversarial Agent to confuse the Task Agent and improve its robustness"
+    #   - name: '[Robot Learning](https://github.com/enfff/robot-learning-labs)'
+    #     summary: "Collection of robotics problems solved with Reinforcement Learning: tabular Q-Learning, Policy Gradient Algorithms (REINFORCE, SAC, PPO)"
+    #   # - name: '[Modeling and Control of Cyber-Physical Systems]()'
+    #   #   summary: "Implementation of a distributed controller according to two approaches: 1. distributed neighborhood observer; 2. local observer. [Results (1)](https://github.com/enfff/cps-project/blob/main/project1/CPS_Project_I_Report.pdf). Study of the iterative threshold-shrinkage operator to solve sparse sensor measurement attacks and target localization. [Results (2)](https://github.com/enfff/cps-project/blob/main/project2/CPS_Project_II_Report.pdf)"
+    #   - name: '[Data Augmentation for Ship Detection](https://github.com/enfff/airbus-ship-detection)'
+    #     summary: "Study of lesser-known data augmentation techniques to improve detection accuracy"
+    #   - name: '[Nonlinear Control and Aerospace Applications](https://github.com/enfff/NLCAA)'
+    #     summary: "MATLAB/Simulink implementations of various nonlinear controls: Feedback Linearization (FL), Sliding Mode Control (SMC), Nonlinear Model Predictive Control (NMPC)"
     skills:
       - label: Languages
         details: Italian (native), English (fluent), French (limited)
       - label: Programming
         details: Python, Bash, C, Rust, JavaScript, M (MATLAB)
       - label: Miscellaneous
-        details: Linux (Arch, Ubuntu), git, Docker, NVIDIA DeepStream (GStreamer), MATLAB, Kubernetes (k3s)
+        details: Linux (Arch, Ubuntu), git, Docker, [NVIDIA DeepStream](https://developer.nvidia.com/deepstream-sdk) (GStreamer), MATLAB, Kubernetes (k3s)
       - label: Robotics
-        details: ROS 2, OpenRMF
+        details: "[ROS2](https://www.ros.org/), [OpenRMF](https://www.open-rmf.org/)"
     # publications:
     #   - title: 3D Finite Element Analysis of No-Insulation Coils
     #     authors:
@@ -108,7 +108,7 @@ cv:
     #   - reversed_number: This is another reversed numbered entry.
     #   - reversed_number: This is the third reversed numbered entry.
 design:
-  theme: classic
+  theme: moderncv
   page:
     size: a4
     top_margin: 1.8cm
@@ -118,13 +118,15 @@ design:
     show_page_numbering: true
     show_last_updated_date: true
   colors:
-    text: rgb(32, 32, 32)
+    text: &darkgray rgb(32, 32, 32)
     # text: rgb(48, 48, 48)
-    name: &accent rgb(0, 79, 144) # Monika's Blue
-    connections: *accent
-    section_titles: *accent
-    links: rgb(64, 64, 64)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+    # name: &accent rgb(0, 79, 144) # Monika's Blue
+    name: *darkgray
+    connections: &lightgray rgb(64, 64, 64)
+    section_titles: rgb(113, 62, 68)
+    # section_titles: *accent
+    links: *lightgray
+    last_updated_date_and_page_numbering: rgb(140, 140, 140)
   text:
     font_family: Source Sans 3
     font_size: 10pt
@@ -139,16 +141,18 @@ design:
     name_font_family: Ubuntu
     name_font_size: 30pt
     name_bold: true
-    photo_width: 3.5cm
+    photo_width: 3cm
+    # photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
     horizontal_space_between_connections: 0.5cm
-    connections_font_family: Source Sans 3
+    # connections_font_family: Source Sans 3
+    connections_font_family: Ubuntu
     separator_between_connections: ''
     use_icons_for_connections: true
     alignment: center
   section_titles:
-    type: with-parial-line
+    type: with-partial-line
     font_family: Ubuntu
     font_size: 1.4em
     bold: true
@@ -253,6 +257,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-10-08'
+  date: '2025-11-27'
   render_command:
   bold_keywords: []
