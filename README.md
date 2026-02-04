@@ -12,7 +12,7 @@
 
 Modifica i file .yaml, e ricompila i file con
 
-    rendercv render --watch CARMONE_EN.yaml
+    rendercv render --watch Carmone_EN.yaml
 
 I file prodotti sono disponibili dentro `rendercv_output/` 
 
