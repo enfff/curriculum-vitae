@@ -29,8 +29,8 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-        - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including fleet adapter design and [Open-RMF](https://www.open-rmf.org/) architecture deployment on Kubernetes.
-        - Implemented Autonomous Navigation for the [TRON 1](https://www.limxdynamics.com/en/tron1), using ROS 2 and Nav2. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes).
+        - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including fleet adapter design and [Open-RMF](https://www.open-rmf.org/) architecture deployment on Kubernetes
+        - Implemented Autonomous Navigation for the [TRON 1](https://www.limxdynamics.com/en/tron1), using ROS 2 and Nav2. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes)
         - Designed Autonomous Recovery Systems for RMF Robot Fleet Adapters
         - "[Open-RMF](https://www.open-rmf.org/) contributor, working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components, see [PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff)"
         - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI)
@@ -65,7 +65,7 @@ cv:
       start_date: 2022-10
       end_date: 2024-06
       highlights:
-        - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)"
+        - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)."
         - "[University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming"
     - institution: Università degli Studi di Palermo
       area: Computer Engineering
@@ -93,9 +93,9 @@ cv:
       - label: Languages
         details: Italian (native), English (fluent), French (limited), German (limited)
       - label: Programming
-        details: Python, Bash, C, Rust, JavaScript, M (MATLAB)
+        details: Python, Bash, C, C++, Rust, JavaScript, M (MATLAB)
       - label: Miscellaneous
-        details: Linux (Arch, Ubuntu), git, Docker, [NVIDIA DeepStream](https://developer.nvidia.com/deepstream-sdk) (GStreamer), MATLAB, Kubernetes (k3s)
+        details: Linux (Arch, Ubuntu), git, Docker, [NVIDIA DeepStream](https://developer.nvidia.com/deepstream-sdk) (GStreamer), MATLAB, Kubernetes
       - label: Robotics
         details: "[ROS2](https://www.ros.org/), [Open-RMF](https://www.open-rmf.org/)"
     # publications:
