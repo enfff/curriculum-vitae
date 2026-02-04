@@ -40,7 +40,7 @@ cv:
         start_date: 2024-09
         end_date: 2025-02
         location: Torino, IT
-        summary: Development of a Robot for suirveillance. Thesis [link](https://webthesis.biblio.polito.it/view/creators/Carmone=3AFrancesco_Paolo=3A=3A.html).
+        summary: "[Video demo](https://enfff.github.io/laurea/assets/patrolling-example.mp4).  Thesis [link](https://webthesis.biblio.polito.it/view/creators/Carmone=3AFrancesco_Paolo=3A=3A.html). R&D of autonomous suirveillance robotic system, with emphasis on GenAI dataset generation."
         highlights:
         - Generated dataset using generative AI [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
         - Fine-tuned a convolutional network, [YOLOv11](https://docs.ultralytics.com/models/yolo11/), for object detection
@@ -50,7 +50,7 @@ cv:
         position: Control Engineer
         date:
         start_date: 2023-10
-        end_date: 2025-05
+        end_date: 2025-04
         location: Torino, IT
         summary:
         highlights:
@@ -63,7 +63,7 @@ cv:
       degree: "MS"
       location: Torino, IT
       start_date: 2022-10
-      end_date: 2024-06
+      end_date: 2025-04
       highlights:
         - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)."
         - "[University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming"
