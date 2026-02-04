@@ -29,9 +29,9 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-        - Implemented Autonomous Navigation for the TRON 1, using ROS 2 and Nav2
+        - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including fleet adapter design and [Open-RMF](https://www.open-rmf.org/) architecture deployment on Kubernetes.
+        - Implemented Autonomous Navigation for the [TRON 1](https://www.limxdynamics.com/en/tron1), using ROS 2 and Nav2. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes).
         - Designed Autonomous Recovery Systems for RMF Robot Fleet Adapters
-        # - Designed and integrated a RAG pipeline (Ollama + LangChain) for a robotic assistant aiding visually impaired users, with dynamic re-indexing of OCR-extracted package data and voice interaction via gTTS
         - "[Open-RMF](https://www.open-rmf.org/) contributor, working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components, see [PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff)"
         - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI)
       - company: Reply Concept Engineering
@@ -54,10 +54,10 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-          - International Competition [EuRoC 2024](https://euroc.pt/)
-          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/) rocket for the [EuRoC 2024](https://euroc.pt/) competition, through the implementation of a 6-DoF Extended Kalman Filter (EKF)
+          - Competed at [EuRoC 2024](https://euroc.pt/)
+          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/); implementation of a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control
           # - Development of the [EXCALIBUR](https://icarus.polito.it/dart-2/) rocket for the [EuRoC 2024](https://euroc.pt/) competition, through the implementation of a 6-DoF Extended Kalman Filter (EKF)
-          - Training new members, managing the team for R&D of new flight dynamics control algorithms
+          - Managed a team of four for R&D of new flight dynamics control algorithms
     education:
     - institution: Politecnico di Torino
       area: Automation and Intelligent Cyber-Physical Systems
@@ -66,8 +66,7 @@ cv:
       start_date: 2022-10
       end_date: 2024-06
       highlights:
-        - "Student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)"
-        # - "Materie incentrate su Robotica; Controlli Nonlineari e Controlli Distribuiti; Programmazione di Sistema; IA: Reinforcement Learning, Machine Learning"
+        - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)"
         - "[University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming"
     - institution: Università degli Studi di Palermo
       area: Computer Engineering
@@ -88,6 +87,9 @@ cv:
     #     summary: "Study of lesser-known data augmentation techniques to improve detection accuracy"
     #   - name: '[Nonlinear Control and Aerospace Applications](https://github.com/enfff/NLCAA)'
     #     summary: "MATLAB/Simulink implementations of various nonlinear controls: Feedback Linearization (FL), Sliding Mode Control (SMC), Nonlinear Model Predictive Control (NMPC)"
+    # Open Source:
+    #   - label: mpv-plugin-excerpt-v2
+    #     details: "[mpv](https://mpv.io/) plugin to create video excerpts with customizable start/end times and output filenames.
     skills:
       - label: Languages
         details: Italian (native), English (fluent), French (limited), German (limited)
@@ -96,7 +98,7 @@ cv:
       - label: Miscellaneous
         details: Linux (Arch, Ubuntu), git, Docker, [NVIDIA DeepStream](https://developer.nvidia.com/deepstream-sdk) (GStreamer), MATLAB, Kubernetes (k3s)
       - label: Robotics
-        details: "[ROS2](https://www.ros.org/), [OpenRMF](https://www.open-rmf.org/)"
+        details: "[ROS2](https://www.ros.org/), [Open-RMF](https://www.open-rmf.org/)"
     # publications:
     #   - title: 3D Finite Element Analysis of No-Insulation Coils
     #     authors:
