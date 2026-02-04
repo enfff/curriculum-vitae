@@ -54,10 +54,9 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-          - Competed at [EuRoC 2024](https://euroc.pt/)
-          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/); implementation of a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control
-          # - Development of the [EXCALIBUR](https://icarus.polito.it/dart-2/) rocket for the [EuRoC 2024](https://euroc.pt/) competition, through the implementation of a 6-DoF Extended Kalman Filter (EKF)
+          - Competed at [EuRoC 2024](https://euroc.pt/home-2024/)
           - Managed a team of four for R&D of new flight dynamics control algorithms
+          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/); implementation of a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control
     education:
     - institution: Politecnico di Torino
       area: Automation and Intelligent Cyber-Physical Systems
@@ -270,6 +269,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2026-01-13'
+  date: '2026-02-04'
   render_command:
   bold_keywords: []
