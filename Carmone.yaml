@@ -94,7 +94,7 @@ settings:
     design:
     locale:
     typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    pdf_path: rendercv_output/Carmone.pdf
     markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
     html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
     png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png

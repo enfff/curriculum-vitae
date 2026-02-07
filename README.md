@@ -16,7 +16,7 @@ Modifica i file .yaml, e ricompila i file con
 
 I file prodotti sono disponibili dentro `rendercv_output/` 
 
-    xdg-open rendercv_output/Francesco_P.Carmone_CV.pdf
+    xdg-open rendercv_output/Carmone.pdf
 
 > Puoi abilitare `intellisense` impostando `RenderCV` come JSON schema
 
