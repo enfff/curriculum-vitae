@@ -23,24 +23,26 @@ cv:
         end_date: present
         location: Torino, IT
         summary:
+          "R&D of autonomous robotic systems, and deployment of client-specific solutions."
         highlights:
-          - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including fleet adapter design and [Open-RMF](https://www.open-rmf.org/) architecture deployment on Kubernetes
-          - Implemented Autonomous Navigation for the [TRON 1](https://www.limxdynamics.com/en/tron1), using ROS 2 and Nav2. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes)
-          - Designed Autonomous Recovery Systems for RMF Robot Fleet Adapters
-          - "[Open-RMF](https://www.open-rmf.org/) contributor, working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components, see [PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff)"
-          - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI)
+          - Mentored interns on robotics thesis work.
+          - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including designing the fleet adapter and deploying [Open-RMF](https://www.open-rmf.org/) on Kubernetes.
+          - Implemented Autonomous Navigation for the [TRON 1](https://www.limxdynamics.com/en/tron1), using ROS 2 and Nav2. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes).
+          - Designed Autonomous Recovery Systems for RMF Robot Fleet Adapters.
+          - "[Open-RMF](https://www.open-rmf.org/) contributor, working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components, see [PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff)."
+          - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI).
       - company: Reply Concept Engineering
         position: Internship in Robotics and Computer Vision
         date:
         start_date: 2024-09
         end_date: 2025-02
         location: Torino, IT
-        summary: "[Video demo](https://enfff.github.io/laurea/assets/patrolling-example.mp4).  Thesis [link](https://webthesis.biblio.polito.it/view/creators/Carmone=3AFrancesco_Paolo=3A=3A.html). R&D of autonomous suirveillance robotic system, with emphasis on GenAI dataset generation."
+        summary: "[Video demo](https://enfff.github.io/laurea/assets/patrolling-example.mp4). Thesis title: [Enhance Security with Robotics and AI](https://webthesis.biblio.polito.it/view/creators/Carmone=3AFrancesco_Paolo=3A=3A.html)."
         highlights:
-          - Generated dataset using generative AI [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
-          - Fine-tuned a convolutional network, [YOLOv11](https://docs.ultralytics.com/models/yolo11/), for object detection
-          - Built a [DeepStream](https://developer.nvidia.com/deepstream-sdk) inference pipeline on Jetson with [Kafka](https://kafka.apache.org/) messaging
-          - Developed server and web application for monitoring
+          - Generated dataset using Gen-AI [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
+          - Fine-tuned a convolutional network, [YOLOv11](https://docs.ultralytics.com/models/yolo11/), for object detection.
+          - Built a [DeepStream](https://developer.nvidia.com/deepstream-sdk) inference pipeline on Jetson with [Kafka](https://kafka.apache.org/) messaging.
+          - Developed server and web application for monitoring.
       - company: Icarus
         position: Control Engineer
         date:
@@ -49,9 +51,9 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-          - Competed at [EuRoC 2024](https://euroc.pt/home-2024/)
-          - Managed a team of four for R&D of new flight dynamics control algorithms
-          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/); implementation of a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control
+          - Competed at [EuRoC 2024](https://euroc.pt/home-2024/).
+          - Managed a team of four to develop and test flight dynamics control algorithms.
+          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/); implementation of a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control.
     education:
       - institution: Politecnico di Torino
         area: Automation and Intelligent Cyber-Physical Systems
@@ -62,8 +64,8 @@ cv:
         location: Torino, IT
         summary:
         highlights:
-          - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)"
-          - "[University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming"
+          - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)."
+          - "[University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming."
       - institution: Università degli Studi di Palermo
         area: Computer Engineering
         degree: BS
@@ -73,9 +75,11 @@ cv:
         location: Palermo, IT
         summary:
         highlights:
-          - "Student association: [Vivere Ingegneria](https://www.linkedin.com/company/vivere-ingegneria/)"
+          - "Student association: [Vivere Ingegneria](https://www.linkedin.com/company/vivere-ingegneria/)."
+#    "Open source":
+#      - label: rmf_obstacle
+#        details: "[GitHub repo](https://github.com/enfff/rmf_obstacle)"
     skills:
-
       - label: Languages
         details: Italian (native), English (fluent), French (limited), German (limited)
       - label: Programming
