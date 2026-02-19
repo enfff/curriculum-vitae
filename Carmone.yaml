@@ -25,12 +25,11 @@ cv:
         summary:
           "R&D of autonomous robotic systems, and deployment of client-specific solutions."
         highlights:
-          - Mentored interns on robotics thesis work.
           - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including designing the fleet adapter and deploying [Open-RMF](https://www.open-rmf.org/) on Kubernetes.
           - Implemented Autonomous Navigation for the [TRON 1](https://www.limxdynamics.com/en/tron1), using ROS 2 and Nav2. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes).
-          - Designed Autonomous Recovery Systems for RMF Robot Fleet Adapters.
-          - "[Open-RMF](https://www.open-rmf.org/) contributor, working on [rmf_obstacles](https://github.com/enfff/rmf_obstacle/tree/fix/human_detector) and related components, see [PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff)."
-          - Developed internal documentation and support tools via RAG pipelines (Ollama + OpenWebUI).
+          - Designed an autonomous recovery system for RMF Robot Fleet Adapters.
+          - Configured Ollama and developed a custom Claude code review skill, integrating it into CI/CD pipelines for automated Docker image build.
+          - Mentored interns on robotics thesis work.
       - company: Reply Concept Engineering
         position: Internship in Robotics and Computer Vision
         date:
