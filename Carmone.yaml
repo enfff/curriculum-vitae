@@ -3,9 +3,9 @@
 cv:
   name: Francesco P. Carmone
   headline:
-  location: Torino, IT
+  location: Turin, IT
   email:
-  photo: "profile_picture.jpg"
+  # photo: "profile_picture.jpg"
   phone:
   website:
   social_networks:
@@ -21,7 +21,7 @@ cv:
         date:
         start_date: 2025-05
         end_date: present
-        location: Torino, IT
+        location: Turin, IT
         summary:
           "R&D of autonomous robotic systems, and deployment of client-specific solutions."
         highlights:
@@ -35,7 +35,7 @@ cv:
         date:
         start_date: 2024-09
         end_date: 2025-02
-        location: Torino, IT
+        location: Turin, IT
         summary: "[Video demo](https://enfff.github.io/laurea/assets/patrolling-example.mp4). Thesis title: [Enhance Security with Robotics and AI](https://webthesis.biblio.polito.it/view/creators/Carmone=3AFrancesco_Paolo=3A=3A.html)."
         highlights:
           - Generated dataset using Gen-AI [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
@@ -47,7 +47,7 @@ cv:
         date:
         start_date: 2023-10
         end_date: 2025-04
-        location: Torino, IT
+        location: Turin, IT
         summary:
         highlights:
           - Competed at [EuRoC 2024](https://euroc.pt/home-2024/).
@@ -60,7 +60,7 @@ cv:
         date:
         start_date: 2022-10
         end_date: 2025-04
-        location: Torino, IT
+        location: Turin, IT
         summary:
         highlights:
           - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)."
@@ -92,7 +92,7 @@ design:
 locale:
   language: english
 settings:
-  current_date: '2026-02-04'
+  current_date: '2026-03-10'
   render_command:
     design:
     locale:
