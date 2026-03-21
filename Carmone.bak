@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 
 cv:
   name: Francesco P. Carmone
@@ -31,7 +31,7 @@ cv:
           - Configured Ollama and developed a custom Claude code review skill, integrating it into CI/CD pipelines for automated Docker image build.
           - Mentored interns on robotics thesis work.
       - company: Reply Concept Engineering
-        position: Internship, Robotics and Computer Vision
+        position: Internship in Robotics and Computer Vision
         date:
         start_date: 2024-09
         end_date: 2025-02
@@ -52,7 +52,7 @@ cv:
         highlights:
           - Competed at [EuRoC 2024](https://euroc.pt/home-2024/).
           - Managed a team of four to develop and test flight dynamics control algorithms.
-          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/), implemented a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control.
+          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/); implementation of a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control.
     education:
       - institution: Politecnico di Torino
         area: Automation and Intelligent Cyber-Physical Systems
@@ -64,7 +64,7 @@ cv:
         summary:
         highlights:
           - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)."
-          - "Link to [University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming."
+          - "[University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming."
       - institution: Università degli Studi di Palermo
         area: Computer Engineering
         degree: BS
@@ -86,28 +86,9 @@ cv:
       - label: Miscellaneous
         details: Linux (Arch, Ubuntu), git, Docker, [NVIDIA DeepStream](https://developer.nvidia.com/deepstream-sdk) (GStreamer), MATLAB, Kubernetes
       - label: Robotics
-        details: "[ROS 2](https://www.ros.org/), [Open-RMF](https://www.open-rmf.org/)"
+        details: "[ROS2](https://www.ros.org/), [Open-RMF](https://www.open-rmf.org/)"
 design:
   theme: classic
-  section_titles:
-    type: with_full_line
-  typography:
-    line_spacing: 0.6em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: false
-  entries:
-    highlights:
-      bullet: •
-      nested_bullet: •
-      space_left: 0.15cm
-      space_above: 0cm
-      space_between_items: 0cm
-      space_between_bullet_and_text: 0.5em
-  colors:
-
-    connections: rgb(0, 0, 0)
 locale:
   language: english
 settings:
@@ -125,5 +106,4 @@ settings:
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: true
-  pdf_title: this is an easter egg, give this dude a chance, he's chill af
-  bold_keywords: [EKF, CI/CD, AMR, Open-RMF, RMF, ROS 2, Nav2, Kubernetes, Docker, Ollama, Claude, Reinforcement Learning, Jetson, Kafka]
+  bold_keywords: []

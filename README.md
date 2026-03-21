@@ -38,4 +38,5 @@ Graphite:                   rgb(65, 74, 76)
 Dark Teal:                  rgb(0, 77, 77)
 Espresso Brown:             rgb(59, 47, 47)
 Bourgogne:                  rgb(113, 62, 68)
+Bordeaux:                   rgb(113, 62, 68)
 ```
