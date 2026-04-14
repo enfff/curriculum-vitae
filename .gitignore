@@ -10,8 +10,12 @@ classic
 .git-filter*
 
 *.yaml
-job-postings/
-personal-experience/
+job-postings/*
+!job-postings/.gitkeep
+personal-experience/*
+!personal-experience/.gitkeep
+rendercv_output/*
+!rendercv_output/.gitkeep
 extra
 
 !Carmone.yaml
