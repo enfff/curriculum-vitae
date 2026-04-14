@@ -5,9 +5,13 @@ classic
 .old
 *prova*
 *test*
+*.bak
 .vscode
 .git-filter*
 
 *.yaml
 job-postings/
+personal-experience/
 extra
+
+!Carmone.yaml
