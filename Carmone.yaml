@@ -2,10 +2,9 @@
 
 cv:
   name: Francesco P. Carmone
-  headline:
-  location: Turin, IT
+  location: Turin, Italy
   email:
-  photo: "profile_picture.jpg"
+  # photo: "profile_picture.jpg"
   phone:
   website:
   social_networks:
@@ -17,19 +16,17 @@ cv:
   sections:
     experience:
       - company: Reply Concept Engineering / Roboverse IT
-        position: Robotics Engineer
+        position: Robotics Software Engineer
         date:
         start_date: 2025-04
         end_date: present
         location: Turin, IT
-        summary:
-          "R&D of autonomous robotic systems, and deployment of client-specific solutions."
         highlights:
-          - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including designing the fleet adapter and deploying [Open-RMF](https://www.open-rmf.org/) on Kubernetes.
-          - Implemented Autonomous Navigation for the [TRON 1](https://www.limxdynamics.com/en/tron1), using ROS 2 and Nav2. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes).
-          - Designed an autonomous recovery system for RMF Robot Fleet Adapters.
-          - Configured Ollama and developed a custom Claude code review skill, integrating it into CI/CD pipelines for automated Docker image build.
-          - Mentored interns on robotics thesis work.
+          - "Engineered the end-to-end deployment of an autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it) using C++ and deploying [Open-RMF](https://www.open-rmf.org/) on Kubernetes."
+          - "Implemented autonomous navigation on the TRON 1 biped robot using ROS 2, Nav2, with LiDAR/IMU sensor fusion."
+          - "Integrated remote simulation instances across separate networks by migrating the ROS 2 middleware from CycloneDDS to Zenoh to successfully bridge distributed topics."
+          - "Configured `llamacpp` and developed a custom Claude code review skill, integrating it into CI/CD pipelines for automated Docker image build."
+          - "Designed a multi-agent system for fraud detection [(Reply AI Agent Challenge 2026)](https://challenges.reply.com/challenges/ai-agent/home/)."
       - company: Reply Concept Engineering
         position: Internship, Robotics and Computer Vision
         date:
@@ -38,21 +35,28 @@ cv:
         location: Turin, IT
         summary: "[Video demo](https://enfff.github.io/laurea/assets/patrolling-example.mp4). Thesis title: [Enhance Security with Robotics and AI](https://webthesis.biblio.polito.it/view/creators/Carmone=3AFrancesco_Paolo=3A=3A.html)."
         highlights:
-          - Generated dataset using Gen-AI [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
-          - Fine-tuned a convolutional network, [YOLOv11](https://docs.ultralytics.com/models/yolo11/), for object detection.
-          - Built a [DeepStream](https://developer.nvidia.com/deepstream-sdk) inference pipeline on Jetson with [Kafka](https://kafka.apache.org/) messaging.
-          - Developed server and web application for monitoring.
+          - "Generated a custom dataset using GenAI to fine-tune a YOLOv11 object detection model."
+          - "Developed a real-time AI inference pipeline using NVIDIA Jetson Orin Nano and DeepStream."
       - company: Icarus
-        position: Control Engineer
+        position: Student Team, Control Engineer
         date:
         start_date: 2023-10
         end_date: 2025-04
         location: Turin, IT
-        summary:
+        summary: "R&D for autonomous UAV flight systems and the EXCALIBUR rocket ([EuRoC 2024](https://euroc.pt/home-2024/))."
         highlights:
-          - Competed at [EuRoC 2024](https://euroc.pt/home-2024/).
-          - Managed a team of four to develop and test flight dynamics control algorithms.
-          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/), implemented a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control.
+          - "Designed an autonomous UAV software stack integrating Ardupilot, MAVLink, and ROS 2/Gazebo for simulation and testing, after comparing PX4 and Ardupilot for the flight-control architecture."
+          - "Implemented an Extended Kalman Filter (EKF) in C for GNSS-denied state estimation, explicitly managing asynchronous updates from IMU, barometer, and magnetometer."
+          - "Bridged robust estimation and control by delivering a reliable 50 Hz state output to a Nonlinear Model Predictive Controller (NMPC)."
+    University Projects:
+      - label: Robot Learning
+        details: "Reinforcement learning for robotics in MuJoCo/Gym: Q-Learning, REINFORCE (from scratch), and PPO/SAC with stable-baselines3, including adversarial domain-randomization experiments for robustness. See [repo](https://github.com/enfff/rl-hopper)."
+      - label: Nonlinear Control and Aerospace Applications
+        details: "Implemented robust nonlinear control algorithms in MATLAB/Simulink to overcome the limitations of PID controllers, including Linear Quadratic Regulator (LQR), Sliding Mode Control (SMC), and Nonlinear Model Predictive Control (NMPC). See [repo](https://github.com/enfff/NLCAA)."
+    Contributions:
+      - label: rmf_obstacle
+        details: "[PR #37](https://github.com/open-rmf/rmf_obstacle/pull/37) merged into main. PR on a C++ ROS 2 managed lifecycle obstacle-detection node for Open-RMF."
+        # read this: https://design.ros2.org/articles/node_lifecycle.html
     education:
       - institution: Politecnico di Torino
         area: Automation and Intelligent Cyber-Physical Systems
@@ -64,7 +68,7 @@ cv:
         summary:
         highlights:
           - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)."
-          - "Link to [University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming."
+          - "Link to Github [University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736)."
       - institution: Università degli Studi di Palermo
         area: Computer Engineering
         degree: BS
@@ -75,18 +79,15 @@ cv:
         summary:
         highlights:
           - "Student association: [Vivere Ingegneria](https://www.linkedin.com/company/vivere-ingegneria/)."
-#    "Open source":
-#      - label: rmf_obstacle
-#        details: "[GitHub repo](https://github.com/enfff/rmf_obstacle)"
     skills:
-      - label: Languages
-        details: Italian (native), English (fluent), French (limited), German (limited)
       - label: Programming
-        details: Python, Bash, C, C++, Rust, JavaScript, M (MATLAB)
-      - label: Miscellaneous
-        details: Linux (Arch, Ubuntu), git, Docker, [NVIDIA DeepStream](https://developer.nvidia.com/deepstream-sdk) (GStreamer), MATLAB, Kubernetes
+        details: "C/C++ (17/20), Python, Bash, MATLAB"
       - label: Robotics
-        details: "[ROS 2](https://www.ros.org/), [Open-RMF](https://www.open-rmf.org/)"
+        details: "ROS 2, Open-RMF, Ardupilot, PX4, Nav2, MuJoCo, Gazebo, MAVLink, Sensor Fusion"
+      - label: Tools & Systems
+        details: Git, Linux (Arch, Ubuntu), Docker, Kubernetes, Zenoh, NVIDIA DeepStream, CI/CD, Kafka
+      - label: Languages
+        details: "Italian (Native), English (Fluent)"
 design:
   theme: classic
   section_titles:
@@ -98,20 +99,18 @@ design:
   links:
     underline: false
   entries:
-    highlights:
-      bullet: •
-      nested_bullet: •
-      space_left: 0.15cm
-      space_above: 0cm
-      space_between_items: 0cm
-      space_between_bullet_and_text: 0.5em
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0cm
+    allow_page_break: false
+    short_second_row: true
+    degree_width: 0.75cm
   colors:
-
     connections: rgb(0, 0, 0)
 locale:
   language: english
 settings:
-  current_date: '2026-03-10'
+  current_date: "2026-05-01"
   render_command:
     design:
     locale:
@@ -125,5 +124,32 @@ settings:
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: true
-  pdf_title: this is an easter egg, give this dude a chance, he's chill af
-  bold_keywords: [EKF, CI/CD, AMR, Open-RMF, RMF, ROS 2, Nav2, Kubernetes, Docker, Ollama, Claude, Reinforcement Learning, Jetson, Kafka]
+  pdf_title: Curriculum Vitae - Francesco P. Carmone
+  bold_keywords:
+    [
+      C++,
+      Python,
+      C/C++,
+      Linux,
+      ROS 2,
+      Open-RMF,
+      Nav2,
+      SLAM,
+      GNC,
+      Sensor Fusion,
+      EKF,
+      NMPC,
+      MPC,
+      LQR,
+      PID,
+      PX4,
+      MAVLink,
+      Kubernetes,
+      Docker,
+      MuJoCo,
+      Gazebo,
+      Reinforcement Learning,
+      Zenoh,
+      GNSS
+    ]
+    

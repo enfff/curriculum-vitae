@@ -8,6 +8,7 @@ classic
 *.bak
 .vscode
 .git-filter*
+.bak
 
 *.yaml
 job-postings/*

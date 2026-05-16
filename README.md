@@ -1,5 +1,15 @@
 # Curriculum Vitæ
 
+1. Inserisci su `job-postings` cartelle con questa struttura:
+
+```
+azienda_nome-ruolo
+└── posting          // Contiene offerta e descrizione di lavoro
+```
+
+2. Richiama l'agente `CVGhostWriter`
+3. Profit
+
 ## Installazione
 
     python -m venv .venv    
@@ -38,5 +48,5 @@ Graphite:                   rgb(65, 74, 76)
 Dark Teal:                  rgb(0, 77, 77)
 Espresso Brown:             rgb(59, 47, 47)
 Bourgogne:                  rgb(113, 62, 68)
-Bordeaux:                   rgb(113, 62, 68)
+Bordeaux:                   rgb(117, 12, 24)
 ```

@@ -1,11 +1,11 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 
 cv:
   name: Francesco P. Carmone
-  headline:
-  location: Turin, IT
+  headline: "Computer Engineer specializing in Robotics with a commitment to strengthening Europe's technological sovereignty."
+  location: Turin, Italy
   email:
-  photo: "profile_picture.jpg"
+  # photo: "profile_picture.jpg"
   phone:
   website:
   social_networks:
@@ -19,29 +19,30 @@ cv:
       - company: Reply Concept Engineering / Roboverse IT
         position: Robotics Engineer
         date:
-        start_date: 2025-04
+        start_date: 2025-05
         end_date: present
         location: Turin, IT
-        summary:
-          "R&D of autonomous robotic systems, and deployment of client-specific solutions."
+        # summary:
+        #   "R&D for robotic systems, and deployment of client-specific solutions."
         highlights:
-          - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including designing the fleet adapter and deploying [Open-RMF](https://www.open-rmf.org/) on Kubernetes.
-          - Implemented Autonomous Navigation for the [TRON 1](https://www.limxdynamics.com/en/tron1), using ROS 2 and Nav2. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes).
-          - Designed an autonomous recovery system for RMF Robot Fleet Adapters.
-          - Configured Ollama and developed a custom Claude code review skill, integrating it into CI/CD pipelines for automated Docker image build.
           - Mentored interns on robotics thesis work.
+          - Collaborated with a team of 8 people, using Agile Scrum methodologies.
+          - Engineered end-to-end deployment of a fully autonomous forklift (AMR) for [Lavazza IT](https://www.lavazza.it/it), including designing the fleet adapter and deploying [Open-RMF](https://www.open-rmf.org/) on Kubernetes.
+          - Implemented autonomous navigation on the [TRON 1](https://www.limxdynamics.com/en/products/tron1) biped robot using ROS 2 and Nav2, and deployed a conversational Agentic AI on Jetson Nano. See [repo](https://github.com/enfff/tron1-gazebo-ros2/tree/nodes).
+          - Designed a ROS 2 package for RMF fleets to automatically handle robot events, alerts, and sensor data with configurable, event-driven actions.
+          - Configured Ollama and developed a custom Claude code review skill, integrating it into CI/CD pipelines for automated Docker image build.
+          - Designed and maintained a ROS 2 development environment for Git-based development and testing prior to Kubernetes deployment, integrating remote simulation instances by migrating the middleware from FastDDS to ZenohDDS.
+          - Developed an AI multi-agent system for intelligent decision-making in complex scenarios (Reply AI Agent Challenge 2026).
       - company: Reply Concept Engineering
-        position: Internship in Robotics and Computer Vision
+        position: Internship, Robotics and Computer Vision
         date:
         start_date: 2024-09
         end_date: 2025-02
         location: Turin, IT
         summary: "[Video demo](https://enfff.github.io/laurea/assets/patrolling-example.mp4). Thesis title: [Enhance Security with Robotics and AI](https://webthesis.biblio.polito.it/view/creators/Carmone=3AFrancesco_Paolo=3A=3A.html)."
         highlights:
-          - Generated dataset using Gen-AI [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
-          - Fine-tuned a convolutional network, [YOLOv11](https://docs.ultralytics.com/models/yolo11/), for object detection.
-          - Built a [DeepStream](https://developer.nvidia.com/deepstream-sdk) inference pipeline on Jetson with [Kafka](https://kafka.apache.org/) messaging.
-          - Developed server and web application for monitoring.
+          - Generated dataset using Gen-AI [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and fine-tuned a convolutional network, [YOLOv11](https://docs.ultralytics.com/models/yolo11/), for object detection.
+          - Built a DeepStream inference pipeline on Jetson with [Kafka](https://kafka.apache.org/) messaging.
       - company: Icarus
         position: Control Engineer
         date:
@@ -52,7 +53,11 @@ cv:
         highlights:
           - Competed at [EuRoC 2024](https://euroc.pt/home-2024/).
           - Managed a team of four to develop and test flight dynamics control algorithms.
-          - R&D for the [EXCALIBUR](https://icarus.polito.it/dart-2/); implementation of a 6-DoF Extended Kalman Filter (EKF) for flight dynamics control.
+          - R&D a sensor fusion algorithm based on the EKF (Extended Kalman Filter) for the [EXCALIBUR](https://icarus.polito.it/dart-2/) rocket, using IMU, magnetometer and barometer data.
+    Contributions:
+      - label: rmf_obstacle
+        details: "[PR#37](https://github.com/open-rmf/rmf_obstacle/commits?author=enfff) merged into `main`. A C++ ROS 2 managed lifecycle node for obstacle detection node for RMF."
+        # read this: https://design.ros2.org/articles/node_lifecycle.html
     education:
       - institution: Politecnico di Torino
         area: Automation and Intelligent Cyber-Physical Systems
@@ -64,7 +69,7 @@ cv:
         summary:
         highlights:
           - "Actively involved in aerospace student teams: [ASTRA](https://astrateam.polito.it/), [Icarus](https://icarus.polito.it/)."
-          - "[University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming."
+          - "Link to [University Projects](https://gist.github.com/enfff/67bf71509cd399868d2756d541f07736). Topics: Reinforcement Learning, Machine Learning, Nonlinear Control, Distributed Control Systems, System Programming."
       - institution: Università degli Studi di Palermo
         area: Computer Engineering
         degree: BS
@@ -75,24 +80,43 @@ cv:
         summary:
         highlights:
           - "Student association: [Vivere Ingegneria](https://www.linkedin.com/company/vivere-ingegneria/)."
-#    "Open source":
-#      - label: rmf_obstacle
-#        details: "[GitHub repo](https://github.com/enfff/rmf_obstacle)"
+    University Projects:
+      - label: Nonlinear Control and Aereospace Applications
+        details: "MATLAB/Simulink implementation of various nonlinear control algorithms including Linear Quadratic Regulator (LQR), Feedback Linearization (FL), Sliding Mode Control (SMC), Nonlinear Model Predictive Control (NMPC). See [repo](https://github.com/enfff/NLCAA)."
+      - label: Pacman Tamagotchi
+        details: "NXP LPC1768 “LandTiger” microcontroller project. A Tamagotchi-like videogame with a Pacman theme, featuring a touch-screen, a joystick and a buzzer. See [repo](https://github.com/enfff/pacman_tamagotchi)."
     skills:
       - label: Languages
-        details: Italian (native), English (fluent), French (limited), German (limited)
+        details: "Italian (native), English (fluent), German (Spexx A1)asd"
       - label: Programming
         details: Python, Bash, C, C++, Rust, JavaScript, M (MATLAB)
       - label: Miscellaneous
-        details: Linux (Arch, Ubuntu), git, Docker, [NVIDIA DeepStream](https://developer.nvidia.com/deepstream-sdk) (GStreamer), MATLAB, Kubernetes
+        details: Linux (Arch, Ubuntu), git, Docker, NVIDIA DeepStream (GStreamer), MATLAB, Kubernetes
       - label: Robotics
-        details: "[ROS2](https://www.ros.org/), [Open-RMF](https://www.open-rmf.org/)"
+        details: "[ROS 2](https://www.ros.org/), [Open-RMF](https://www.open-rmf.org/)"
 design:
   theme: classic
+  section_titles:
+    type: with_full_line
+  typography:
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0cm
+    allow_page_break: false
+    short_second_row: true
+    degree_width: 0.75cm
+  colors:
+    connections: rgb(0, 0, 0)
 locale:
   language: english
 settings:
-  current_date: '2026-03-10'
+  current_date: "2026-04-10"
   render_command:
     design:
     locale:
@@ -106,4 +130,23 @@ settings:
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: true
-  bold_keywords: []
+  # pdf_title: this candidate has potential
+  bold_keywords:
+    [
+      Open-RMF,
+      C++,
+      RMF,
+      ROS 2,
+      Nav2,
+      Kubernetes,
+      Docker,
+      Jetson,
+      Kafka,
+      autonomous,
+      LQR,
+      NMPC,
+      EKF,
+      sensor fusion,
+      ZenohDDS,
+      lifecycle,
+    ]
