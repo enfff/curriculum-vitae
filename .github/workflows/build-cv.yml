@@ -27,5 +27,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Carmone
-          path: rendercv_output/Carmone.pdf
+          path: rendercv_output/Carmone.zip
           if-no-files-found: error
