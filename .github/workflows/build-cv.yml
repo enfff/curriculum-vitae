@@ -7,13 +7,13 @@ on:
 
 jobs:
   build-cv:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.13"
       - name: Install dependencies
@@ -24,8 +24,8 @@ jobs:
         run: |
           rendercv render Carmone.yaml
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: Carmone
-          path: rendercv_output/Carmone.zip
+          path: rendercv_output/Carmone.pdf
           if-no-files-found: error
